@@ -16,7 +16,9 @@ def long_planeteer_calls(collection)
 end
 
 def find_the_cheese(collection)
-  cheese_types.map {|name| collection.any?("#{name}") }
+  cheese_types.map {|name| if collection.include?("#{name}")
+   return "#{name}"
+  }
   cheese_types = ["cheddar", "gouda", "camembert"]
 
 end
