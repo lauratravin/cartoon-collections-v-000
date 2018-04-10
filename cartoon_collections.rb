@@ -18,5 +18,5 @@ end
 def find_the_cheese(collection)
 
   cheese_types = ["cheddar", "gouda", "camembert"]
-  collection.map {|name| cheese_types.include?(name)}
+  collection.map {|name| cheese_types.include?("#{name}")}
 end
