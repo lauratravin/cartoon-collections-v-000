@@ -11,8 +11,8 @@ def summon_captain_planet(collection)
   }
 end
 
-def long_planeteer_calls# code an argument here
-  # Your code here
+def long_planeteer_calls(collection)
+  collection.any?{ |name| name.length > 4}
 end
 
 def find_the_cheese# code an argument here
