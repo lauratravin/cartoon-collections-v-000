@@ -25,7 +25,7 @@ cheese_types.map {|name|
   if collection.include?(name)
      return "cheddar"
   else
-    nil
+    return nil
   end
 }
 
