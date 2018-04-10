@@ -4,7 +4,7 @@ def roll_call_dwarves(collection)
 end
 
 def summon_captain_planet(collection)
-  collection.map { |name| name.titleize   
+  collection.map { |name| name.capitalize   
   }
 end
 
