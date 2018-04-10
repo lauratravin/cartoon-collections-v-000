@@ -21,9 +21,12 @@ def find_the_cheese(collection)
  # end
  #  }
   cheese_types = ["cheddar", "gouda", "camembert"]
-
-  if collection.include?("cheddar")
+cheese_types.map {|name|
+  if collection.include?(name)
      return "cheddar"
+  else
+    nil
   end
+}
 
 end
