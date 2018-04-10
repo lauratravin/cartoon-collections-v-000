@@ -1,9 +1,11 @@
-def roll_call_dwarves# code an argument here
-  # Your code here
+def roll_call_dwarves(collection)
+
+  collection.each_with_index { |name, id| puts "#{id+1} #{name}" }
 end
 
-def summon_captain_planet# code an argument here
-  # Your code here
+def summon_captain_planet(collection)
+  collection.map { |name| name.fist.uppercase    
+  }
 end
 
 def long_planeteer_calls# code an argument here
