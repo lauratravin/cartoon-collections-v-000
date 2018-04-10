@@ -7,7 +7,7 @@ def summon_captain_planet(collection)
   # collection.map { |name| name.capitalize +"!"
   # }
 
-  collection.collect { |name| name.capitalize +"!"
+  collection.collect { |name| name.capitalize "!"
   }
 end
 
